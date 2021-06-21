@@ -73,7 +73,7 @@ class Order(View):
         body = ("Thank you for your order! Your order will be delivered soon!\n"
                 f"Your Bill: {price}\n")
         send_mail(
-            'Verification Mail!!',
+            'Order Confirmed!!',
             body,
             'anandhakrishna2624@gmail.com',
             [email],
